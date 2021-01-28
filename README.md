@@ -5,9 +5,9 @@
 This application allows a user to add expenses and deposits to their budget with or without an internet connection. When they enter a transaction offline, the total budget will be populated when brought back online.
 
 ## User Story
-AS AN avid traveller
-I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
-SO THAT my account balance is accurate when I am traveling
+* AS AN avid traveller
+* I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
+* SO THAT my account balance is accurate when I am traveling
 
 ## Table of Contents
 
@@ -28,9 +28,21 @@ npm install
 
 ## Usage
 
-If accessing this app from the Heroku link, you do not need to install anything to get started! Locate the Heroku app here: https://hidden-inlet-16797.herokuapp.com/.
+If accessing this app from the Heroku link, you do not need to install anything to get started! Locate the Heroku app here: https://fathomless-headland-95470.herokuapp.com/.
 
 To use this application from GitHub, first fork and open the repo onto your local machine. Before attempting to use the app, open your terminal and perform a ```npm install``` to get the necessary packages.
+
+When first opening the application, the user will see a blank budget tracker, and can add transactions.
+
+![index](public/assets/index.png)
+
+After a transaction has been added, the tracker will update the header to the remaining funds and also create a graph showing the changes in the budget.
+
+![First Transaction](public/assets/first.png)
+
+Now, any transactions will effect the remaining balance and graph.
+
+![First Transaction](public/assets/graph.png)
 
 ## Credits
 
