@@ -2,17 +2,7 @@
 
 ## Description
 
-The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
-
-Offline Functionality:
-
-  * Enter deposits offline
-
-  * Enter expenses offline
-
-When brought back online:
-
-  * Offline entries should be added to tracker.
+This application allows a user to add expenses and deposits to their budget with or without an internet connection. When they enter a transaction offline, the total budget will be populated when brought back online.
 
 ## User Story
 AS AN avid traveller
