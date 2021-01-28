@@ -1,6 +1,6 @@
 {
-    "name": "wheres-my-money",
-    "short_name": "wheres-my-money",
+    "name": "Where's My Money",
+    "short_name": "budget",
     "icons": [
       {
         "src": "icons/icon-192x192.png",
